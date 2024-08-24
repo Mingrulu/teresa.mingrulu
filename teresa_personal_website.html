@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teresa's Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 15px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+        }
+        #about {
+            background-color: #fff;
+            text-align: center;
+        }
+        #portfolio {
+            background-color: #eee;
+        }
+        .portfolio-item {
+            display: inline-block;
+            width: 30%;
+            margin: 1.66%;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .portfolio-item:hover {
+            transform: scale(1.05);
+        }
+        .portfolio-item img {
+            width: 100%;
+            height: auto;
+        }
+        .portfolio-item h3 {
+            text-align: center;
+            padding: 10px 0;
+        }
+        #contact, #blog {
+            background-color: #fff;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Teresa's Website</h1>
+</header>
+
+<nav>
+    <a href="#about">關於我</a>
+    <a href="#portfolio">作品集</a>
+    <a href="#contact">聯絡資訊</a>
+    <a href="#blog">部落格</a>
+</nav>
+
+<section id="about">
+    <h2>關於我</h2>
+    <p>這裡是關於我的簡短介紹，可以包括你的專業背景、興趣愛好，以及你想讓訪客知道的任何其他信息。</p>
+</section>
+
+<section id="portfolio">
+    <h2>作品集</h2>
+    <div class="portfolio-item">
+        <img src="portfolio1.jpg" alt="Portfolio Item 1">
+        <h3>作品名稱 1</h3>
+    </div>
+    <div class="portfolio-item">
+        <img src="portfolio2.jpg" alt="Portfolio Item 2">
+        <h3>作品名稱 2</h3>
+    </div>
+    <div class="portfolio-item">
+        <img src="portfolio3.jpg" alt="Portfolio Item 3">
+        <h3>作品名稱 3</h3>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>聯絡資訊</h2>
+    <p>可以在這裡放置聯絡方式，如電子郵件地址或社群媒體連結。</p>
+</section>
+
+<section id="blog">
+    <h2>部落格</h2>
+    <p>在這裡可以展示你的最新文章或想法分享。</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Teresa's Website. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
